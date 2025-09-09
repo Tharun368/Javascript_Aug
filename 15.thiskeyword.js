@@ -1,9 +1,6 @@
-//global context
-
-
 console.log(this);
 
-this.authors = ["kalidasa, vyasa,"];
+this.authors = ["vyasa, valmiki"];
 this.books = ["mahabharatam, ramayanam"];
 
 this.getbookDetails = function(){
@@ -12,7 +9,6 @@ this.getbookDetails = function(){
 }
 
 console.log(this);
-
 
 var obj = {
     name : "Rabibdranath Tagore",
@@ -25,5 +21,4 @@ var obj = {
     }
 
 }
-
 obj.getbookDetails();   
